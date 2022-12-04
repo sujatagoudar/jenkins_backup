@@ -6,9 +6,9 @@
   <usages/>
   <facets>
     <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
-      <timestamp>1670141738415</timestamp>
+      <timestamp>1670142218408</timestamp>
       <nodeName>slavefinal</nodeName>
-      <timestamp0>1670141498412</timestamp0>
+      <timestamp0>1670141978379</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
   </facets>
 </fingerprint>
