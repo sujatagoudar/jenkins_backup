@@ -1,0 +1,7 @@
+Started by user [8mha:////4KqAJvqnTAxC7YN3OZEcbRusZxbt1RGBQndx1zVc+xE4AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrFpVmJJYnp+aUpiUUAaqc6yscAAAA=[0msujata goudar
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/freestyle2
+[freestyle2] $ /bin/sh -xe /tmp/jenkins13304189536218559778.sh
++ echo hello from second job
+hello from second job
+Finished: SUCCESS

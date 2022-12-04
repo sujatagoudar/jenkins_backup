@@ -1,0 +1,149 @@
+Started by user [8mha:////4KqAJvqnTAxC7YN3OZEcbRusZxbt1RGBQndx1zVc+xE4AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrFpVmJJYnp+aUpiUUAaqc6yscAAAA=[0msujata goudar
+Obtained jenkinsfile from git https://github.com/sujatagoudar/hello-world-war.git
+[8mha:////4EVw/h7fRB4uINe2nVl0qyptKJE7OXISenjv+DUwJuPWAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JeTSZsQ0tRmEwV9Am/69Icmt++2YaFa/ddUWR9LfPnWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] stage
+[8mha:////4OpnRVNN8th6AoLcfDVuHfJlHujbPlX3YlGyM9CZ7yfwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] { (tomcat build & move to other node)
+[8mha:////4H1ALd7hPjjIrMDPShwMtu5a4XgvDC/l/r6Xr86JOjksAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Ow+LNh16qy6bHIE+cexBW2104C8GGuqHP/G0fsVH5AUAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/eKcxLLUtMy8xBx9ABQ+wHPKAAAA[0mslavefinal in /home/slavefinal/workspace/slavepipeline
+[8mha:////4IKEFqW/ofIQ2L73u4s5pfcRw4jzwt4e1qKnoFMq0jlbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PiBoFd0kycJOR/w3zgbu5Z+L/oLrLM7EAw0tj12phJYAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision 7c26a487aa7eebf9855373afef48e38e7a5bcd10 (refs/remotes/origin/master)
+Commit message: "Update jenkinsfile"
+ > git rev-parse --resolve-git-dir /home/slavefinal/workspace/slavepipeline/.git # timeout=10
+ > git config remote.origin.url https://github.com/sujatagoudar/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/sujatagoudar/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/sujatagoudar/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7c26a487aa7eebf9855373afef48e38e7a5bcd10 # timeout=10
+ > git rev-list --no-walk 7c26a487aa7eebf9855373afef48e38e7a5bcd10 # timeout=10
+[8mha:////4OhqWE74FkpOc91PjYtqS4nWtXt8XZzLd3LroVd4fECdAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SHSnQjiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/XNDXAwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Eo+12X89eR99uj4wGcYNQUjAeA9DRv3S3pISdFChUIdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4IE6s6gLMXCiNsg7PVUZeszvmMn/LmL2cKTQcRzny/56AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] sh
++ sudo mvn deploy
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.efsavage:hello-world-war[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Hello World Web Application Repository 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/slavefinal/workspace/slavepipeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/slavefinal/workspace/slavepipeline/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.1.1:war[m [1m(default-war)[m @ [36mhello-world-war[0;1m ---[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/root/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [hello-world-war] in [/home/slavefinal/workspace/slavepipeline/target/hello-world-war-1.0.0]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/slavefinal/workspace/slavepipeline/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [41 msecs]
+[[1;34mINFO[m] Building war: /home/slavefinal/workspace/slavepipeline/target/hello-world-war-1.0.0.war
+[[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] Installing /home/slavefinal/workspace/slavepipeline/target/hello-world-war-1.0.0.war to /root/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+[[1;34mINFO[m] Installing /home/slavefinal/workspace/slavepipeline/pom.xml to /root/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m @ [36mhello-world-war[0;1m ---[m
+Uploading to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+Progress (1): 2.6 kB                    Uploaded to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war (2.6 kB at 2.8 kB/s)
+Uploading to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+Progress (1): 1.4 kB                    Uploaded to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom (1.4 kB at 4.3 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml
+Progress (1): 413 B                   Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml (413 B at 6.2 kB/s)
+Uploading to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml
+Progress (1): 365 B                   Uploaded to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml (365 B at 1.4 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  4.867 s
+[[1;34mINFO[m] Finished at: 2022-12-02T10:11:38Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4JhcCR+KNPzLmCLMHQMXUBp2j9cmYv0JRtjUS0WeoYT/AAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KE0Rgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmXpDtBXlZ9h/UCJErvQAAAA==[0m[Pipeline] sh
++ echo 66
+66
+[8mha:////4LJYMqTV9v1ny5twWwDDWmBs0oaKwrlXj1nBj18UQSyeAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+TbXfcBF1u8AL0AAAA=[0m[Pipeline] sh
++ ls
+Dockerfile
+README.md
+dist
+jenkinbuild_deploy
+jenkins
+jenkinsfile
+pom.xml
+src
+target
+[8mha:////4FLNKA7kRwYqLT4i1KZ+5IVKzK8zmKK1fmr9faGbyJljAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPVmqnGb0AAAA=[0m[Pipeline] echo
+sucessfully copied build to other node
+[8mha:////4GDfqrMQ1ZavSX42wRH3r6ddrhkdj6chGKIyzhW67taRAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/APjxdFm9AAAA[0m[Pipeline] }
+[8mha:////4KSG6pcOA02pdyk5xkw7xVzd0QqFjlFt60NlIUzwpvc+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A97oExO9AAAA[0m[Pipeline] // withEnv
+[8mha:////4NYVAKoCQ/C4/Ot+atGyL6lJpXFjy2c1S1Q9rumtlo4OAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMDY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwACb8Ls70AAAA=[0m[Pipeline] }
+[8mha:////4Ibof356ox1oui8WJENr3bULpwa98Oj8t4AIy9cyW3K+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AAPHYhe9AAAA[0m[Pipeline] // node
+[8mha:////4N3bS8hmsQcTHSh2ry5fue0lGvSTcIRWKIbi9Qb6PhsuAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA0RgNeK9AAAA[0m[Pipeline] }
+[8mha:////4Kosip/2kBO8QFf08RVnaAH/gIFnxAdS3/Ue0sH+zIiOAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPV9wxQb0AAAA=[0m[Pipeline] // stage
+[8mha:////4KLZbqw2WLKtjG5YWAwfX4Ho0k118Mp552B4dySqh6iTAAAApR+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSD0iIqWssNLzCJMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oU4QDRSc7i73H1Hg5hNHlJieK/SXQJDs6y4YwUbBS20lTa48LamILS0QBKwVri02g5NExbFRn7qYKBl114pi3vYLCtzd4gFDZzCbyF+YI2+vYJsKf568A5oFB1AxFvfscyzdoNHeIwQAAAA==[0m[Pipeline] stage
+[8mha:////4HBmKcCGUyUCeKmJnz2/YU/KwecnNsqJmU/hscmhmoaMAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (diploy in node2)
+[8mha:////4Gg3gTeau+pHLRBzsIqKlf2S1PGmvGzeLfYALsWpLruYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] node
+Running on [8mha:////4FvL/svQ/BccyqwBqmmsFnULss2ehVfdiTux6y329TY6AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/aTSzJyU4pzEslR9AMAJ5DzKAAAA[0mbuildslave in /home/slave/workspace/slavepipeline
+[8mha:////4JD1/iG3Dy6v62xwsAuUVwX+GLSUINWQ16wPQ0wVIuZKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4FRrsCWUOfAy5oTUNb7t8pIE02M79xOhS3qgFSUpUtfZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+Checking out Revision 7c26a487aa7eebf9855373afef48e38e7a5bcd10 (refs/remotes/origin/master)
+Commit message: "Update jenkinsfile"
+[8mha:////4MduTK71GgjX/x1ZbawWMY0/HnNXxzj+ALBHMlew7GypAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD3tNtZjCAAAA[0m[Pipeline] withEnv
+[8mha:////4Ky8xe4JAGie3BvciLejDZEZNVTVzVENATRsnSkw/BtGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4OMwFSUG6C25LYbf64Z98YiXeZCUiWJF+8ZhCG1VtUalAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ curl -u sujatasiddarth123@gmail.com:Admin@123 -O https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/66/hello-world-war-66.war
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    80    0    80    0     0    536      0 --:--:-- --:--:-- --:--:--   536
+[8mha:////4AWhLEsH9BhcHRsj1Aqx1KzYRtz1wOtnAHix9lUkwVi2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0bbeqGvgAAAA==[0m[Pipeline] sh
+ > git rev-parse --resolve-git-dir /home/slave/workspace/slavepipeline/.git # timeout=10
+ > git config remote.origin.url https://github.com/sujatagoudar/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/sujatagoudar/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/sujatagoudar/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7c26a487aa7eebf9855373afef48e38e7a5bcd10 # timeout=10
++ sudo cp -R hello-world-war-66.war /opt/tomcat/webapps/
+[8mha:////4KKA7fxBIj13jTjDgc2MhNYzcdVcb0nHArMvfbxHtYjvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1aXPGfvgAAAA==[0m[Pipeline] sh
++ sh /opt/tomcat/bin/shutdown.sh
+sh: 0: cannot open /opt/tomcat/bin/shutdown.sh: Permission denied
+[8mha:////4AM7M2BsoEBzEt31DqyHdNQ0bmaFhq3r11mm0Bw8Sag8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] }
+[8mha:////4BteTDzM7AHlVIL883mDTjLDESxKEh3r33r/4U6DhaIkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF5wm4RvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4BaslNOJs/mAFaX2JoSJpJ/JWwXaOPRIIVzZEFoetYZ6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRkhJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB+IVmX6+AAAA[0m[Pipeline] }
+[8mha:////4H2bIoC9b7oMGtXKpRTSF73VpuXOqITRDD5HDBsQdjVuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRkhJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B9H2wsK+AAAA[0m[Pipeline] // node
+[8mha:////4J4aMPqXoV0uF37lR7w5p7jTrg2y9TIrlCNk+3SnYpmAAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wHTl85GvgAAAA==[0m[Pipeline] }
+[8mha:////4BoSYsLQAiu3LUP8vwhQKD78F/gg37uhb3Mfa3VR94J6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wHgdJX6vgAAAA==[0m[Pipeline] // stage
+[8mha:////4GJHrelj29l/hR34LlpgNDeBsJUHSaOQocQw1SdDSHVJAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABvarvm9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 2
+Finished: FAILURE

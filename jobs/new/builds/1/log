@@ -1,0 +1,38 @@
+Started by user [8mha:////4KqAJvqnTAxC7YN3OZEcbRusZxbt1RGBQndx1zVc+xE4AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrFpVmJJYnp+aUpiUUAaqc6yscAAAA=[0msujata goudar
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/new
+The recommended git tool is: NONE
+using credential text.sh
+Cloning the remote Git repository
+Cloning repository https://github.com/sujatagoudar/privaterepo.git
+ > git init /var/lib/jenkins/workspace/new # timeout=10
+Fetching upstream changes from https://github.com/sujatagoudar/privaterepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/sujatagoudar/privaterepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ERROR: Error cloning remote repo 'origin'
+hudson.plugins.git.GitException: Command "git fetch --tags --force --progress -- https://github.com/sujatagoudar/privaterepo.git +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/sujatagoudar/privaterepo.git/'
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2736)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2111)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:87)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:623)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:852)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1225)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1308)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1241)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:647)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:519)
+	at hudson.model.Run.execute(Run.java:1899)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+ERROR: Error cloning remote repo 'origin'
+Finished: FAILURE

@@ -1,0 +1,181 @@
+Started by user [8mha:////4KqAJvqnTAxC7YN3OZEcbRusZxbt1RGBQndx1zVc+xE4AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrFpVmJJYnp+aUpiUUAaqc6yscAAAA=[0msujata goudar
+Obtained jenkinsfile from git https://github.com/sujatagoudar/hello-world-war.git
+[8mha:////4EVw/h7fRB4uINe2nVl0qyptKJE7OXISenjv+DUwJuPWAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JeTSZsQ0tRmEwV9Am/69Icmt++2YaFa/ddUWR9LfPnWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] stage
+[8mha:////4OpnRVNN8th6AoLcfDVuHfJlHujbPlX3YlGyM9CZ7yfwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] { (tomcat build & move to other node)
+[8mha:////4H1ALd7hPjjIrMDPShwMtu5a4XgvDC/l/r6Xr86JOjksAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Running on [8mha:////4FvL/svQ/BccyqwBqmmsFnULss2ehVfdiTux6y329TY6AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/aTSzJyU4pzEslR9AMAJ5DzKAAAA[0mbuildslave in /home/slave/workspace/slavepipeline
+[8mha:////4IKEFqW/ofIQ2L73u4s5pfcRw4jzwt4e1qKnoFMq0jlbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4PiBoFd0kycJOR/w3zgbu5Z+L/oLrLM7EAw0tj12phJYAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/slave/workspace/slavepipeline/.git # timeout=10
+ > git config remote.origin.url https://github.com/sujatagoudar/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/sujatagoudar/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/sujatagoudar/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 2be5fb00a5d7928163dcbd45d49cfec9dab1dd06 (refs/remotes/origin/master)
+Commit message: "Update jenkinsfile"
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2be5fb00a5d7928163dcbd45d49cfec9dab1dd06 # timeout=10
+ > git rev-list --no-walk c5784c34a188e0aa188bf6b492dcb9552d9cff13 # timeout=10
+[8mha:////4OhqWE74FkpOc91PjYtqS4nWtXt8XZzLd3LroVd4fECdAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SHSnQjiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/XNDXAwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4Eo+12X89eR99uj4wGcYNQUjAeA9DRv3S3pISdFChUIdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4IE6s6gLMXCiNsg7PVUZeszvmMn/LmL2cKTQcRzny/56AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] sh
++ sudo mvn deploy
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.efsavage:hello-world-war[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Hello World Web Application Repository 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+Progress (1): 3.4/6.4 kBProgress (1): 6.2/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (6.4 kB at 9.0 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+Progress (1): 3.4/27 kBProgress (1): 6.2/27 kBProgress (1): 9.0/27 kBProgress (1): 12/27 kB Progress (1): 15/27 kBProgress (1): 17/27 kBProgress (1): 20/27 kBProgress (1): 23/27 kBProgress (1): 26/27 kBProgress (1): 27 kB                      Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (27 kB at 262 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+Progress (1): 3.4/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (5.6 kB at 70 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+Progress (1): 3.4/13 kBProgress (1): 6.2/13 kBProgress (1): 9.0/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 6.3 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+Progress (1): 3.4/27 kBProgress (1): 6.2/27 kBProgress (1): 9.0/27 kBProgress (1): 12/27 kB Progress (1): 15/27 kBProgress (1): 17/27 kBProgress (1): 20/27 kBProgress (1): 23/27 kBProgress (1): 26/27 kBProgress (1): 27 kB                      Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 kB at 240 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/slave/workspace/slavepipeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mhello-world-war[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/slave/workspace/slavepipeline/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mhello-world-war[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.1.1:war[m [1m(default-war)[m @ [36mhello-world-war[0;1m ---[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/root/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [hello-world-war] in [/home/slave/workspace/slavepipeline/target/hello-world-war-1.0.0]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/slave/workspace/slavepipeline/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [44 msecs]
+[[1;34mINFO[m] Building war: /home/slave/workspace/slavepipeline/target/hello-world-war-1.0.0.war
+[[1;34mINFO[m] WEB-INF/web.xml already added, skipping
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mhello-world-war[0;1m ---[m
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 31 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+Progress (1): 3.4/19 kBProgress (1): 6.2/19 kBProgress (1): 9.0/19 kBProgress (1): 12/19 kB Progress (1): 15/19 kBProgress (1): 17/19 kBProgress (1): 19 kB                      Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 230 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 14 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 3.4/5.0 kBProgress (1): 5.0 kB                        Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 65 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Progress (1): 3.4/6.6 kBProgress (1): 6.2/6.6 kBProgress (1): 6.6 kB                        Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (6.6 kB at 37 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 3.3/6.4 kBProgress (1): 6.1/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (6.4 kB at 39 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (1): 3.4/38 kBProgress (1): 6.2/38 kBProgress (1): 9.0/38 kBProgress (1): 12/38 kB Progress (1): 15/38 kBProgress (1): 17/38 kBProgress (1): 20/38 kBProgress (1): 23/38 kBProgress (1): 26/38 kBProgress (1): 29/38 kBProgress (1): 31/38 kBProgress (1): 34/38 kBProgress (1): 37/38 kBProgress (1): 38 kB   Progress (2): 38 kB | 3.4/12 kBProgress (2): 38 kB | 6.2/12 kBProgress (2): 38 kB | 9.0/12 kBProgress (2): 38 kB | 12/12 kB Progress (2): 38 kB | 12 kB                              Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 347 kB/s)
+Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 108 kB/s)
+Progress (1): 4.1/230 kBProgress (1): 8.2/230 kBProgress (1): 12/230 kB Progress (1): 16/230 kBProgress (1): 20/230 kBProgress (1): 24/230 kBProgress (1): 28/230 kBProgress (1): 32/230 kBProgress (1): 36/230 kBProgress (1): 40/230 kBProgress (1): 44/230 kBProgress (1): 48/230 kBProgress (1): 51/230 kBProgress (1): 55/230 kBProgress (1): 59/230 kBProgress (1): 63/230 kBProgress (1): 67/230 kBProgress (1): 71/230 kBProgress (1): 75/230 kBProgress (1): 79/230 kBProgress (1): 83/230 kBProgress (1): 85/230 kBProgress (1): 89/230 kBProgress (1): 94/230 kBProgress (1): 98/230 kBProgress (1): 102/230 kBProgress (1): 106/230 kBProgress (1): 110/230 kBProgress (1): 114/230 kBProgress (1): 118/230 kBProgress (1): 120/230 kBProgress (1): 124/230 kBProgress (1): 128/230 kBProgress (1): 132/230 kBProgress (1): 137/230 kBProgress (1): 141/230 kBProgress (1): 145/230 kBProgress (1): 149/230 kBProgress (1): 153/230 kBProgress (1): 155/230 kBProgress (1): 159/230 kBProgress (1): 163/230 kBProgress (1): 167/230 kBProgress (1): 171/230 kBProgress (1): 175/230 kBProgress (1): 180/230 kBProgress (1): 184/230 kBProgress (1): 188/230 kBProgress (1): 190/230 kBProgress (1): 194/230 kBProgress (1): 198/230 kBProgress (1): 202/230 kBProgress (1): 206/230 kBProgress (1): 210/230 kBProgress (1): 214/230 kBProgress (1): 218/230 kBProgress (1): 223/230 kBProgress (1): 225/230 kBProgress (1): 229/230 kBProgress (1): 230 kB                        Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 486 kB/s)
+[[1;34mINFO[m] Installing /home/slave/workspace/slavepipeline/target/hello-world-war-1.0.0.war to /root/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+[[1;34mINFO[m] Installing /home/slave/workspace/slavepipeline/pom.xml to /root/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-deploy-plugin:2.7:deploy[m [1m(default-deploy)[m @ [36mhello-world-war[0;1m ---[m
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+Progress (1): 4.1/251 kBProgress (1): 7.5/251 kBProgress (1): 12/251 kB Progress (1): 16/251 kBProgress (1): 20/251 kBProgress (1): 24/251 kBProgress (1): 28/251 kBProgress (1): 32/251 kBProgress (1): 36/251 kBProgress (1): 40/251 kBProgress (1): 42/251 kBProgress (1): 46/251 kBProgress (1): 51/251 kBProgress (1): 55/251 kBProgress (1): 59/251 kBProgress (1): 63/251 kBProgress (1): 67/251 kBProgress (1): 71/251 kBProgress (1): 75/251 kBProgress (1): 77/251 kBProgress (1): 81/251 kBProgress (1): 85/251 kBProgress (1): 89/251 kBProgress (1): 94/251 kBProgress (1): 98/251 kBProgress (1): 102/251 kBProgress (1): 106/251 kBProgress (1): 110/251 kBProgress (1): 112/251 kBProgress (1): 116/251 kBProgress (1): 120/251 kBProgress (1): 124/251 kBProgress (1): 128/251 kBProgress (1): 132/251 kBProgress (1): 137/251 kBProgress (1): 141/251 kBProgress (1): 143/251 kBProgress (1): 147/251 kBProgress (1): 151/251 kBProgress (1): 155/251 kBProgress (1): 158/251 kBProgress (1): 162/251 kBProgress (1): 166/251 kBProgress (1): 170/251 kBProgress (1): 174/251 kBProgress (1): 179/251 kBProgress (1): 183/251 kBProgress (1): 187/251 kBProgress (1): 191/251 kBProgress (1): 195/251 kBProgress (1): 197/251 kBProgress (1): 201/251 kBProgress (1): 206/251 kBProgress (1): 210/251 kBProgress (1): 214/251 kBProgress (1): 218/251 kBProgress (1): 222/251 kBProgress (1): 226/251 kBProgress (1): 230/251 kBProgress (1): 234/251 kBProgress (1): 238/251 kBProgress (1): 242/251 kBProgress (1): 246/251 kBProgress (1): 251/251 kBProgress (1): 251 kB                        Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 942 kB/s)
+Uploading to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+Progress (1): 2.6 kB                    Uploaded to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war (2.6 kB at 6.3 kB/s)
+Uploading to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+Progress (1): 1.4 kB                    Uploaded to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom (1.4 kB at 3.7 kB/s)
+Downloading from central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml
+Progress (1): 365 B                   [WARNING] Checksum validation failed, expected 69cb6bd3a7b21bbc8cde28f437f76e6646a656d6 but is f82962632190098e482d6a0ed3c7d2d84734dd14 from central for https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml
+Progress (1): 413 B                   Downloaded from central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml (413 B at 4.9 kB/s)
+Uploading to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml
+Progress (1): 365 B                   Uploaded to central: https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/maven-metadata.xml (365 B at 1.3 kB/s)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  9.466 s
+[[1;34mINFO[m] Finished at: 2022-12-02T09:38:03Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4JhcCR+KNPzLmCLMHQMXUBp2j9cmYv0JRtjUS0WeoYT/AAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KE0Rgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmXpDtBXlZ9h/UCJErvQAAAA==[0m[Pipeline] sh
++ echo 60
+60
+[8mha:////4LJYMqTV9v1ny5twWwDDWmBs0oaKwrlXj1nBj18UQSyeAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+TbXfcBF1u8AL0AAAA=[0m[Pipeline] sh
++ ls
+Dockerfile
+README.md
+deploy.sh
+dist
+hello-world-war
+jenkinbuild_deploy
+jenkins
+jenkinsfile
+pom.xml
+src
+target
+[8mha:////4FLNKA7kRwYqLT4i1KZ+5IVKzK8zmKK1fmr9faGbyJljAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPVmqnGb0AAAA=[0m[Pipeline] echo
+sucessfully copied build to other node
+[8mha:////4GDfqrMQ1ZavSX42wRH3r6ddrhkdj6chGKIyzhW67taRAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/APjxdFm9AAAA[0m[Pipeline] }
+[8mha:////4KSG6pcOA02pdyk5xkw7xVzd0QqFjlFt60NlIUzwpvc+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A97oExO9AAAA[0m[Pipeline] // withEnv
+[8mha:////4NYVAKoCQ/C4/Ot+atGyL6lJpXFjy2c1S1Q9rumtlo4OAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMDY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwACb8Ls70AAAA=[0m[Pipeline] }
+[8mha:////4Ibof356ox1oui8WJENr3bULpwa98Oj8t4AIy9cyW3K+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AAPHYhe9AAAA[0m[Pipeline] // node
+[8mha:////4N3bS8hmsQcTHSh2ry5fue0lGvSTcIRWKIbi9Qb6PhsuAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA0RgNeK9AAAA[0m[Pipeline] }
+[8mha:////4Kosip/2kBO8QFf08RVnaAH/gIFnxAdS3/Ue0sH+zIiOAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPV9wxQb0AAAA=[0m[Pipeline] // stage
+[8mha:////4KLZbqw2WLKtjG5YWAwfX4Ho0k118Mp552B4dySqh6iTAAAApR+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSD0iIqWssNLzCJMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oU4QDRSc7i73H1Hg5hNHlJieK/SXQJDs6y4YwUbBS20lTa48LamILS0QBKwVri02g5NExbFRn7qYKBl114pi3vYLCtzd4gFDZzCbyF+YI2+vYJsKf568A5oFB1AxFvfscyzdoNHeIwQAAAA==[0m[Pipeline] stage
+[8mha:////4HBmKcCGUyUCeKmJnz2/YU/KwecnNsqJmU/hscmhmoaMAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (diploy in node2)
+[8mha:////4Gg3gTeau+pHLRBzsIqKlf2S1PGmvGzeLfYALsWpLruYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] node
+Running on [8mha:////4BwuhA2PETCPjuyk611GT5iupXr7OVYEnMQzeMelw2adAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/slavepipeline
+[8mha:////4JD1/iG3Dy6v62xwsAuUVwX+GLSUINWQ16wPQ0wVIuZKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4FRrsCWUOfAy5oTUNb7t8pIE02M79xOhS3qgFSUpUtfZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/slavepipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sujatagoudar/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/sujatagoudar/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/sujatagoudar/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2be5fb00a5d7928163dcbd45d49cfec9dab1dd06 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2be5fb00a5d7928163dcbd45d49cfec9dab1dd06 # timeout=10
+Commit message: "Update jenkinsfile"
+[8mha:////4MduTK71GgjX/x1ZbawWMY0/HnNXxzj+ALBHMlew7GypAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD3tNtZjCAAAA[0m[Pipeline] withEnv
+[8mha:////4Ky8xe4JAGie3BvciLejDZEZNVTVzVENATRsnSkw/BtGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4OMwFSUG6C25LYbf64Z98YiXeZCUiWJF+8ZhCG1VtUalAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ curl -u sujatasiddarth123@gmail.com:Admin@123 -O https://sujata.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/60/hello-world-war-60.war
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    80    0    80    0     0    337      0 --:--:-- --:--:-- --:--:--   338
+[8mha:////4AWhLEsH9BhcHRsj1Aqx1KzYRtz1wOtnAHix9lUkwVi2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0bbeqGvgAAAA==[0m[Pipeline] sh
++ sudo cp -R hello-world-war-60.war /opt/tomcat/webapps/
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+[8mha:////4KxagkMaJHbT0uJEcvTFIqg42A5UjBg2KP/vFD/RZaRBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g0aGkPCvgAAAA==[0m[Pipeline] }
+[8mha:////4HIWxr21c5803y+qWSiNeCrT/4wc00pI1HPG+igbogLRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHcETLavgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JR61pctJr/gf8IMrz9oQQ+ym5Z5T6gdfDo69+lVM3SXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71B0xnDfi+AAAA[0m[Pipeline] }
+[8mha:////4DQ8wzZB06ko2XTNhJ8AxFmAHefauNkKmCWMbdDd2o59AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRQomoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AHQlngm+AAAA[0m[Pipeline] // node
+[8mha:////4AgZFsjXyJTUTUHWE8mkzku+qwgasZvrRh/WfagYEb90AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B2uny1u+AAAA[0m[Pipeline] }
+[8mha:////4L4CGc1qYu/v0bmOkhAtOXvZu/eSE4AkRzohOvK1ZkncAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP0WnyTG+AAAA[0m[Pipeline] // stage
+[8mha:////4Mz2G76kuXG3s1CHwCAiM1v68quXsE4vc8gY4Bm9NfpQAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

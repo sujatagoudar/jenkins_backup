@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-30 01:49:03.291 UTC</timestamp>
+  <md5sum>e7bdb54bb75eeccf88e30ce326657eb5</md5sum>
+  <fileName>Credential id=text.sh name=text.sh/******</fileName>
+  <usages>
+    <entry>
+      <string>new</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

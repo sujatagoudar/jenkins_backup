@@ -1,0 +1,12 @@
+SSHLauncher{host='https://github.com/sujatagoudar/hello-world-war.git', port=22, credentialsId='build_deploy', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[12/04/22 08:16:19] [SSH] Opening SSH connection to https://github.com/sujatagoudar/hello-world-war.git:22.
+https://github.com/sujatagoudar/hello-world-war.git: Name or service not known
+SSH Connection failed with IOException: "https://github.com/sujatagoudar/hello-world-war.git: Name or service not known", retrying in 15 seconds. There are 10 more retries left.
+https://github.com/sujatagoudar/hello-world-war.git: Name or service not known
+SSH Connection failed with IOException: "https://github.com/sujatagoudar/hello-world-war.git: Name or service not known", retrying in 15 seconds. There are 9 more retries left.
+https://github.com/sujatagoudar/hello-world-war.git: Name or service not known
+SSH Connection failed with IOException: "https://github.com/sujatagoudar/hello-world-war.git: Name or service not known", retrying in 15 seconds. There are 8 more retries left.
+https://github.com/sujatagoudar/hello-world-war.git: Name or service not known
+SSH Connection failed with IOException: "https://github.com/sujatagoudar/hello-world-war.git: Name or service not known", retrying in 15 seconds. There are 7 more retries left.
+https://github.com/sujatagoudar/hello-world-war.git: Name or service not known
+SSH Connection failed with IOException: "https://github.com/sujatagoudar/hello-world-war.git: Name or service not known", retrying in 15 seconds. There are 6 more retries left.

@@ -1,0 +1,34 @@
+Started by user [8mha:////4KqAJvqnTAxC7YN3OZEcbRusZxbt1RGBQndx1zVc+xE4AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrFpVmJJYnp+aUpiUUAaqc6yscAAAA=[0msujata goudar
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/factorial12.sh
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sujatagoudar/myrepo.git
+ > git init /var/lib/jenkins/workspace/factorial12.sh # timeout=10
+Fetching upstream changes from https://github.com/sujatagoudar/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/sujatagoudar/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sujatagoudar/myrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f3e1f88bf728ad0e7078d59296db56d42ba55073 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f3e1f88bf728ad0e7078d59296db56d42ba55073 # timeout=10
+Commit message: "Merge pull request #6 from sujatagoudar/prajwalbranch"
+First time build. Skipping changelog.
+[factorial12.sh] $ /bin/sh -xe /tmp/jenkins10049265531127440778.sh
++ sh 12.sh
+the factorial of given set o number is 2
+the factorial of given set o number is 24
+the factorial of given set o number is 720
+the factorial of given set o number is 40320
+the factorial of given set o number is 3628800
+the factorial of given set o number is 479001600
+the factorial of given set o number is 87178291200
+the factorial of given set o number is 1307674368000
+the factorial of given set o number is 2432902008176640000
+the factorial of given set o number is 6402373705728000
+Finished: SUCCESS

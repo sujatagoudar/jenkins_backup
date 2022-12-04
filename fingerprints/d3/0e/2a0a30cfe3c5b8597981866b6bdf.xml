@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-30 10:45:13.183 UTC</timestamp>
+  <md5sum>d30e2a0a30cfe3c5b8597981866b6bdf</md5sum>
+  <fileName>Credential id=build_deploy name=slaveone/****** (build_deploy)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1669805450858</timestamp>
+      <itemFullName>build_deploy</itemFullName>
+      <timestamp0>1669805255061</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1670141704544</timestamp>
+      <nodeName>build_deploy</nodeName>
+      <timestamp0>1670141464555</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1670141704559</timestamp>
+      <nodeName>build_deploy1</nodeName>
+      <timestamp0>1670141464543</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

@@ -1,0 +1,39 @@
+Started by user [8mha:////4KqAJvqnTAxC7YN3OZEcbRusZxbt1RGBQndx1zVc+xE4AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrFpVmJJYnp+aUpiUUAaqc6yscAAAA=[0msujata goudar
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/new
+The recommended git tool is: NONE
+using credential text.sh
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/new/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sujatagoudar/privaterepo.git%20HEAD # timeout=10
+Fetching upstream changes from https://github.com/sujatagoudar/privaterepo.git HEAD
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/sujatagoudar/privaterepo.git%20HEAD +refs/heads/*:refs/remotes/origin/* # timeout=10
+ERROR: Error fetching remote repo 'origin'
+hudson.plugins.git.GitException: Failed to fetch from https://github.com/sujatagoudar/privaterepo.git HEAD
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1002)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1244)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1308)
+	at hudson.scm.SCM.checkout(SCM.java:540)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1241)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:647)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:519)
+	at hudson.model.Run.execute(Run.java:1899)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Caused by: hudson.plugins.git.GitException: Command "git fetch --tags --force --progress -- https://github.com/sujatagoudar/privaterepo.git%20HEAD +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: fatal: unable to access 'https://github.com/sujatagoudar/privaterepo.git%20HEAD/': The requested URL returned error: 400
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2736)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2111)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:87)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:623)
+	at hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:1000)
+	... 11 more
+ERROR: Error fetching remote repo 'origin'
+Finished: FAILURE

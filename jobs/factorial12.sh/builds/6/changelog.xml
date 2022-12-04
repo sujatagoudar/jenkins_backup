@@ -1,0 +1,9 @@
+commit 4b6e5914472cc440869fbdf50a441c241849074a
+tree fa9b0dd2c0d5f905f24dfd224a02f5a439ee5f66
+parent d63154b08c4bb7a2ff450009fa6e35308751f389
+author sujatagoudar <118256824+sujatagoudar@users.noreply.github.com> 2022-11-27 21:36:14 +0530
+committer GitHub <noreply@github.com> 2022-11-27 21:36:14 +0530
+
+    Create wali1sttomcat.sh
+
+:000000 100644 0000000000000000000000000000000000000000 70f1428ecfd54b6be0a2fb9d4fa6b0b4a7ab7bc4 A	wali1sttomcat.sh

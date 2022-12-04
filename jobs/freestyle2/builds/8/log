@@ -1,0 +1,9 @@
+Started by user [8mha:////4GdL8PPuv3bd4PZh4gpPqTWYQ0ctFd0OpN+TTWQ1RATiAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL94tKsxJJEAIGAUfHBAAAA[0msujata
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/freestyle2
+[freestyle2] $ /bin/sh -xe /tmp/jenkins15330634782389544269.sh
++ echo hello from 2nd job
+hello from 2nd job
++ echo modified by second user
+modified by second user
+Finished: SUCCESS

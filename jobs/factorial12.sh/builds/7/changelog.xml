@@ -1,0 +1,9 @@
+commit 7fb225d0ebdf1f97707816c3c48d11303ad31dc3
+tree 2f0e9b49b5944be867d5019a36e5e505c5e76f77
+parent 4b6e5914472cc440869fbdf50a441c241849074a
+author sujatagoudar <118256824+sujatagoudar@users.noreply.github.com> 2022-11-27 21:41:16 +0530
+committer GitHub <noreply@github.com> 2022-11-27 21:41:16 +0530
+
+    Update wali1sttomcat.sh
+
+:100644 100644 70f1428ecfd54b6be0a2fb9d4fa6b0b4a7ab7bc4 f965e98bf0911173fa2702d06ce4642268d46d05 M	wali1sttomcat.sh
